@@ -12,6 +12,7 @@ body {
   font-family: "Space Grotesk", sans-serif;
   background-color: var(--color-black);
   color: var(--color-white);
+  margin:0;
 }
 .link {
   text-decoration: none;
@@ -23,7 +24,7 @@ body {
   padding: 0;
 }
 .container {
-  min-width: 343px;
+  min-width: 320px;
   max-width: 428px;
   padding-left: 16px;
   padding-right: 16px;
@@ -38,7 +39,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
  padding-top: 20px;
   position: relative;
   max-height: 383px;
@@ -51,10 +51,12 @@ body {
   font-weight: 700;
   line-height: 1.33;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
 }
 .header-socials {
   display: flex;
   gap: 18px;
+  margin-bottom: 40px;
 }
 .profile-image{
   display: block;
@@ -62,12 +64,12 @@ body {
   top: -141px;
  
 }
-.spiral{
+.oval{
   position: absolute;
   top: 124px;
   left: -16px;
 }
-.oval{
+.half-circle{
   position: absolute;
   top: 254px;
   left: 311px;
