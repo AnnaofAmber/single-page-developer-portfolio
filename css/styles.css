@@ -1,0 +1,75 @@
+:root {
+  /* colors */
+  --color-black: hsla(0, 0%, 8%, 1);
+  --color-accent-green: hsla(154, 71%, 59%, 1);
+  --color-dark-grey: hsla(0, 0%, 14%, 1);
+  --color-grey: hsla(0, 0%, 85%, 1);
+  --color-white: hsla(0, 0%, 100%, 1);
+  --color-red: hsla(7, 100%, 68%, 1);
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+.link {
+  text-decoration: none;
+  color: var(--color-white);
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  min-width: 343px;
+  max-width: 428px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+ padding-top: 20px;
+  position: relative;
+  max-height: 383px;
+  
+}
+
+.header-text {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+}
+.header-socials {
+  display: flex;
+  gap: 18px;
+}
+.profile-image{
+  display: block;
+  position: relative;
+  top: -141px;
+ 
+}
+.spiral{
+  position: absolute;
+  top: 124px;
+  left: -16px;
+}
+.oval{
+  position: absolute;
+  top: 254px;
+  left: 311px;
+
+}
