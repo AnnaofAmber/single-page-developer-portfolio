@@ -25,13 +25,27 @@ body {
 }
 .container {
   min-width: 320px;
-  max-width: 428px;
+  max-width: 375px;
   padding-left: 16px;
   padding-right: 16px;
   margin-right: auto;
   margin-left: auto;
 }
-
+.section {
+}
+.hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;}
+/**
+  |============================
+  | header
+  |============================
+*/
 .header {
   
 }
@@ -41,7 +55,7 @@ body {
   align-items: center;
  padding-top: 20px;
   position: relative;
-  max-height: 383px;
+  max-height: 363px;
   
 }
 
@@ -50,13 +64,14 @@ body {
   font-size: 24px;
   font-weight: 700;
   line-height: 1.33;
-  letter-spacing: 0.03em;
+  letter-spacing: -0.021em;
   margin-bottom: 20px;
 }
 .header-socials {
   display: flex;
   gap: 18px;
   margin-bottom: 40px;
+  max-width: 154px;
 }
 .profile-image{
   display: block;
@@ -74,4 +89,140 @@ body {
   top: 254px;
   left: 311px;
 
+}
+
+
+/**
+  |============================
+  | section-intro
+  |============================
+*/
+
+
+
+.section-intro {
+  padding-top: 40px;
+  padding-bottom: 92px;
+  
+}
+.intro-container{
+  text-align: center;
+  position: relative;
+
+
+}
+.section-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 1;
+letter-spacing: -0.028em;
+
+}
+.undertitle-line{
+  position: absolute;
+  top: 80px;
+  left: 102px;
+}
+.hero-text {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 16px;
+line-height: 1,6;
+}
+
+.link-contact {
+  font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 1,62;
+letter-spacing: 0.143em;
+}
+.underlink-line{
+  position:absolute;
+  top: 222px;
+  left: 128px;
+  
+}
+
+/**
+  |============================
+  | section-skills
+  |============================
+*/
+.section-skills {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+.skills-container{
+  text-align: center;
+  position: relative;
+}
+.between-sections-line{
+position: absolute;
+top: -40px;
+left: 16px;
+
+}
+.skills-list{
+
+}
+.skill-item{
+font-size: 32px;
+font-weight: 700;
+line-height: 1.25;
+letter-spacing: -0.001em;
+}
+
+.skill-item:not(:last-child){
+  margin-bottom: 24px;
+}
+
+.skill-item-descr{
+  margin: 0;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.62;
+color: var(--color-grey);
+
+}
+
+/**
+  |============================
+  | section-projects
+  |============================
+*/
+.section-projects{
+  padding-top: 80px;
+  
+}
+
+.project-container{
+  position: relative;
+}
+
+.projects-header{
+  display: flex;
+  gap: 71px;
+}
+.between-sections-projects{
+  top: -80px;
+}
+
+.project-title{
+  margin-bottom: 0px;
+}
+
+.link-contact-project{
+  padding-top: 4px;
+}
+
+
+.underlink-line-projects{
+  position: absolute;
+  top: 36px;
+  left: 239px;
 }
