@@ -18,6 +18,12 @@ body {
   text-decoration: none;
   color: var(--color-white);
 }
+.link:hover{
+  color: var(--color-accent-green);
+  }
+  .link:focus{
+    color: var(--color-accent-green);
+    }
 .list {
   list-style: none;
   margin: 0;
@@ -72,11 +78,35 @@ body {
   gap: 18px;
   margin-bottom: 40px;
   max-width: 154px;
+  z-index: 20;
+
 }
+.header-social-link
+{
+  color: var(--color-white);
+  z-index: 30;
+ 
+}
+.header-social-link:hover{
+  color: var(--color-accent-green);
+}
+
+.header-social-link:focus{
+  color: var(--color-accent-green);
+}
+
+.header-icon{
+fill: currentColor;
+z-index: 40;
+
+}
+
+
 .profile-image{
   display: block;
   position: relative;
   top: -141px;
+ z-index: 10;
  
 }
 .oval{
@@ -140,6 +170,9 @@ font-weight: 700;
 line-height: 1,62;
 letter-spacing: 0.143em;
 }
+
+
+
 .underlink-line{
   position:absolute;
   top: 222px;
@@ -190,6 +223,13 @@ color: var(--color-grey);
 
 }
 
+.oval-section-skills{
+  position: absolute;
+  top: 492px;
+  left: 87px;
+  
+  
+}
 /**
   |============================
   | section-projects
