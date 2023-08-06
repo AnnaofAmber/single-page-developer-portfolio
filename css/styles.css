@@ -167,7 +167,7 @@ top: -40px;
 left: 16px;
 
 }
-.skills-list{
+.experience-list{
 
 }
 .skill-item{
@@ -197,7 +197,7 @@ color: var(--color-grey);
 */
 .section-projects{
   padding-top: 80px;
-  
+  padding-bottom: 92px;
 }
 
 .project-container{
@@ -225,4 +225,68 @@ color: var(--color-grey);
   position: absolute;
   top: 36px;
   left: 239px;
+}
+
+.list-projects{
+  margin-top: 40px;
+}
+
+.list-project-item{
+  
+}
+
+.list-project-item:not(:last-child){
+margin-bottom: 52px;
+}
+
+.project-image{
+
+}
+
+.project-name{
+margin-top: 20px;
+margin-bottom: 0px;
+font-size: 24px;
+line-height: 1.33; 
+font-weight: 700;
+}
+
+.skills-list{
+  margin-top: 7px;
+  display: flex;
+  gap: 18px;
+
+}
+.skills-list-item{
+  font-size: 18px;
+font-weight: 500;
+line-height: 1.55;
+color: var(--color-grey);
+
+}
+.listed-links{
+margin-top: 20px;
+display: flex;
+  gap: 32px;
+  position: relative;
+}
+.listed-links-item{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.62; 
+  letter-spacing: 0.143em;
+  
+}
+
+.underline-view-link{
+  position: absolute;
+  top: 33px;
+  left: 0px;
+ 
+
+}
+.underline-view-link-small{
+  position: absolute;
+  top: 33px;
+  left: 168px;
 }
