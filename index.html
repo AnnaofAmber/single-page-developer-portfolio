@@ -25,25 +25,25 @@
         <ul class="list header-socials">
           <li class="header-item">
             <a class="header-social-link" href=""
-              ><svg class="header-icon" width="" height="20">
+              ><svg class="header-icon" width="20" height="20">
                 <use href="./assets/images/icons/symbol-defs.svg#icon-git-hub"></use>
               </svg></a>
           </li>
           <li class="header-item">
             <a class="header-social-link" href=""
-              ><svg class="header-icon" width="" height="20">
+              ><svg class="header-icon" width="20" height="20">
                 <use href="./assets/images/icons/symbol-defs.svg#icon-frontendmentor"></use>
               </svg></a>
           </li>
           <li class="header-item">
             <a class="header-social-link" href=""
-              ><svg class="header-icon" width="" height="20">
+              ><svg class="header-icon" width="20" height="20">
                 <use href="./assets/images/icons/symbol-defs.svg#icon-linkedIn"></use>
               </svg></a>
           </li>
           <li class="header-item">
             <a class="header-social-link" href=""
-              > <svg class="header-icon" width="" height="20">
+              > <svg class="header-icon" width="20" height="20">
                 <use href="./assets/images/icons/symbol-defs.svg#icon-twitter"></use>
               </svg>
             </a>
@@ -309,23 +309,68 @@
 
       <section class="section-contact" id="contact">
         <div class="container">
-          <h2 class="section-title">Contact</h2>
-          <p>
+          <h2 class="section-title contact-title">Contact</h2>
+          <p class="contact-text">
             I would love to hear about your project and how I could help. Please
             fill in the form, and I’ll get back to you as soon as possible.
           </p>
-          <form action="">Name Email Message Send message</form>
+          <form class="contact-form">
+            <label class="contact-lable hidden" for="user-name">NAME</label>
+           <input 
+           class="contact-input"
+           type="text"
+           name="user-name"
+           id="user-name"
+           placeholder="NAME"
+           >
+           <label class="contact-lable hidden" for="user-email">EMAIL</label>
+           <input 
+           class="contact-input"
+           type="email"
+           name="user-email"
+           id="user-email"
+           placeholder="EMAIL">
+           <label class="contact-label hidden" for="user-message">MESSAGE</label>
+           <textarea class="contact-textarea" name="user-message" id="user-message" placeholder="MESSAGE"></textarea>
+
+          <button class="btn-contact-form" type="submig"> SEND MESSAGE</button>
+
+
+          </form>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <p>adamkeyes</p>
+      <div class="container footer-container">
+      <p class="footer-text">adamkeyes</p>
       <ul class="list header-socials">
-        <li class="header-item"></li>
-        <li class="header-item"></li>
-        <li class="header-item"></li>
-        <li class="header-item"></li>
+        <li class="header-item">
+          <a class="header-social-link" href=""
+            ><svg class="header-icon" width="20" height="20">
+              <use href="./assets/images/icons/symbol-defs.svg#icon-git-hub"></use>
+            </svg></a>
+        </li>
+        <li class="header-item">
+          <a class="header-social-link" href=""
+            ><svg class="header-icon" width="20" height="20">
+              <use href="./assets/images/icons/symbol-defs.svg#icon-frontendmentor"></use>
+            </svg></a>
+        </li>
+        <li class="header-item">
+          <a class="header-social-link" href=""
+            ><svg class="header-icon" width="20" height="20">
+              <use href="./assets/images/icons/symbol-defs.svg#icon-linkedIn"></use>
+            </svg></a>
+        </li>
+        <li class="header-item">
+          <a class="header-social-link" href=""
+            > <svg class="header-icon" width="20" height="20">
+              <use href="./assets/images/icons/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
       </ul>
+    </div>
     </footer>
   </body>
 </html>
