@@ -60,7 +60,7 @@ body {
   flex-direction: column;
   align-items: center;
  padding-top: 20px;
-  position: relative;
+  /* position: relative; */
   max-height: 363px;
   
 }
@@ -109,15 +109,19 @@ z-index: 40;
  z-index: 10;
  
 }
+.svg{
+  position: relative;
+
+}
 .oval{
   position: absolute;
-  top: 124px;
-  left: -16px;
+ top: -17px;
+ left: -188px;
 }
 .half-circle{
   position: absolute;
-  top: 254px;
-  left: 311px;
+ top: 112px;
+ left: 123px;
 
 }
 
