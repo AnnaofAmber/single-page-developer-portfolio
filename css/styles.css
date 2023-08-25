@@ -239,7 +239,7 @@ z-index: 100;
 @media only screen and (min-width: 768px) {
   .half-circle{
    top: 376px;
-   left: -38px;
+   left: -36px;
   
   }
 }
@@ -263,7 +263,6 @@ z-index: 100;
 .section-intro {
   padding-top: 40px;
   padding-bottom: 92px;
-  
 }
 
 @media only screen and (min-width: 768px) {
@@ -285,28 +284,37 @@ z-index: 100;
 .intro-container{
   text-align: center;
   position: relative;
-  max-width: 343px;
-
 }
 
 @media only screen and (min-width: 768px) {
   .intro-container{
     text-align: left;
     z-index: 15;
-    margin-left: 0;
-    margin-right: 0;
-    max-width: 445px;
     /* padding-right: 0; */
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1440px) {
   .intro-container{
-
     max-width: 750px;
 
   }}
 
+  .intro-content{
+    max-width: 343px;
+  }
+
+@media only screen and (min-width: 768px) {
+  .intro-content{
+    max-width: 445px;
+  } 
+}
+
+@media only screen and (min-width: 1440px) {
+  .intro-content{
+    max-width: 750px;
+  } 
+}  
 
 .section-title {
   
@@ -401,14 +409,9 @@ letter-spacing: 0.143em;
 .underlink-line{
   position:absolute;
   top: 35px;
-  left: 112px;
+  left: 0;
 }
 
-@media only screen and (min-width: 768px) {
-  .underlink-line{
-    left: 0;
-  }
-}
 
 /**
   |============================
