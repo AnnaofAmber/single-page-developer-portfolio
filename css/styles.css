@@ -31,7 +31,7 @@ body {
 }
 .container {
   min-width: 320px;
-  max-width: 375px;
+  max-width: 343px;
   padding-left: 16px;
   padding-right: 16px;
   margin-right: auto;
@@ -41,7 +41,7 @@ body {
 /* tablet styles */
 @media only screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 712px;
     padding-left: 28px;
     padding-right: 28px;
   }
@@ -56,8 +56,7 @@ body {
   }
 }
 
-.section {
-}
+
 .hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -244,13 +243,6 @@ z-index: 100;
   }
 }
 
-@media only screen and (min-width: 1440px) {
-  .half-circle{
-
-   left: -40px;
-  
-  }
-}
 
 
 /**
@@ -280,7 +272,6 @@ z-index: 100;
   }
 }
 
-
 .intro-container{
   text-align: center;
   position: relative;
@@ -290,23 +281,22 @@ z-index: 100;
   .intro-container{
     text-align: left;
     z-index: 15;
-    /* padding-right: 0; */
+
   }
 }
 
-@media only screen and (min-width: 1440px) {
-  .intro-container{
-    max-width: 750px;
-
-  }}
-
   .intro-content{
     max-width: 343px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
   }
 
 @media only screen and (min-width: 768px) {
   .intro-content{
     max-width: 445px;
+    margin-left: 0;
+    margin-right: 0;
   } 
 }
 
@@ -350,7 +340,7 @@ letter-spacing: -0.028em;
   height: 4px;
   position: absolute;
   top: 80px;
-  left: 102px;
+  left: 86px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -358,7 +348,7 @@ letter-spacing: -0.028em;
     width: 416px;
     height: 8px;
     top: 227px;
-    left: 28px;
+    left: 0px;
   }
 }
 
@@ -367,7 +357,7 @@ letter-spacing: -0.028em;
     width: 510px;
     height: 10px;
     top: 176px;
-    left: 310px;
+    left: 142px;
     z-index: 1;
   }
 }
@@ -446,12 +436,33 @@ letter-spacing: 0.143em;
    text-align: left; 
   }
 }
+
+
+.svg-line-container{
+  position: relative;
+  height: 20px;
+}
+
 .between-sections-line{
 position: absolute;
 top: -40px;
-left: 16px;
-
+left: 0px;
 }
+
+@media only screen and (min-width: 768px) {
+  .between-sections-line{
+    width: 712px;
+    height: 3px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .between-sections-line{
+    width: 1110px;
+    height: 4px;
+  }
+}
+
+
 @media only screen and (min-width: 768px) {
   .experience-list{
   display: flex;
@@ -496,14 +507,16 @@ letter-spacing: -0.031em;
 .skill-item-descr{
   margin: 0;
 font-size: 16px;
-font-weight: 500;
+font-weight: 400;
 line-height: 1.62;
+letter-spacing: -0.015em;
 color: var(--color-grey);
 
 }
 
 @media only screen and (min-width: 768px) {
    .skill-item-descr{
+    margin-top: 14px;
     font-size: 18px;
 line-height: 1.55
   }
@@ -511,11 +524,28 @@ line-height: 1.55
 
 .oval-section-skills{
   position: absolute;
-  top: 492px;
-  left: 87px;
-  
-  
+  width: 196px;
+  top: 512px;
+  left: 179px;
 }
+
+@media only screen and (min-width: 768px) {
+  .oval-section-skills{
+    width: 291px;
+    top: 334px;
+    left: 478px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .oval-section-skills{
+    top: 180px;
+    left: 1149px;
+  }
+}
+
+
+
 /**
   |============================
   | section-projects
@@ -549,7 +579,14 @@ line-height: 1.55
 }
 
 .between-sections-projects{
+  position: absolute;
   top: -80px;
+}
+
+@media only screen and (min-width: 768px) {
+  .between-sections-projects{
+  display: none;
+  }
 }
 
 .project-title{
