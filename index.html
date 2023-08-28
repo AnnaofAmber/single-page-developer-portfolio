@@ -12,6 +12,10 @@
     />
 
     <title>Frontend Mentor | Single-page developer portfolio</title>
+    <link href="
+https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-3.2.6.min.css
+" rel="stylesheet">
+
     <link
       rel="stylesheet"
       href="./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf"
@@ -391,8 +395,9 @@
            name="user-email"
            id="user-email"
            placeholder="EMAIL"
+           minlength="8" 
            required>
-           
+           <span class="email-error" aria-live="polite"></span>
            
         </div>
 
@@ -402,12 +407,11 @@
            
           </div>
           <div class="contact-btn">
-          <button class="btn-contact-form" type="submig"> SEND MESSAGE</button>
+          <button class="btn-contact-form" type="submit"> SEND MESSAGE</button>
           <svg class="underbutton-line-contact" width="144" height="3">
             <use href="./assets/images/icons/symbol-defs.svg#icon-green-rect"></use>
           </svg></div>
    
-
 
           </form>
           <div class="section-contact-oval"> 
@@ -460,5 +464,10 @@
       </ul>
     </div>
     </footer>
+    <script src="./js/script.js" type="module"></script>
+    <script src="
+https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-aio-3.2.6.min.js
+"></script>
+
   </body>
 </html>
