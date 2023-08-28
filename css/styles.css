@@ -78,7 +78,7 @@ body {
   flex-direction: column;
   align-items: center;
   z-index: 10;
-  background: linear-gradient(180deg, rgba(36, 36, 36, 0.00) 0%, #242424 100%);
+
   width: 174px;
   
 }
@@ -103,7 +103,6 @@ body {
   flex-direction: column;
   align-items: center;
  padding-top: 20px;
-  /* position: relative; */
   max-height: 363px;
 }
 
@@ -128,7 +127,7 @@ body {
     font-size: 32px;
 font-style: normal;
 font-weight: 700;
-line-height: 32px; /* 100% */
+line-height: 1;
 letter-spacing: -0.444px;
 margin-bottom: 0;
 }}
@@ -181,7 +180,7 @@ z-index: 40;
 .profile-image{
   display: block;
   position: relative;
-  top: 0px;
+  top: -92px;
   z-index: 1;
   width: 174px;
 }

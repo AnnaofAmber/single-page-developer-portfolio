@@ -7,15 +7,15 @@ const emailError = document.querySelector('.email-error')
 
 
 
-userEmail.addEventListener('input', inputData)
+userEmail.addEventListener('input', (event)=>{
+  if (userEmail.validity.valid) {
+    emailError.textContent = ""; 
+  } else {
+    errorMessage();
+  }
+})
 
-function inputData(){
-    if (userEmail.validity.valid) {
-        emailError.textContent = ""; 
-      } else {
-        errorMessage();
-      }
-    };
+
 
 
 form.addEventListener('submit', (event) =>{
